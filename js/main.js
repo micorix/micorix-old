@@ -1,6 +1,5 @@
 $("#splash h1").textillate({ initialDelay: 200, in: { effect: 'fadeInLeft'}});
 $("#splash h3").textillate({ initialDelay: 600, in: { effect: 'fadeInDown', sync: true }});
-$("#splash i").delay(1300).fadeIn();
 $("#splash i").click(function(){
  $("#splash i").fadeOut();
   $("#splash").animate({paddingTop: "20px"}).css({textShadow: "none"});
